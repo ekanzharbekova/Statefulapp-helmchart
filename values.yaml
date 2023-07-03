@@ -1,0 +1,8 @@
+ephemeralStorage: 512Gi
+memory: 30Gi
+persistentVolume:
+  enabled: true
+  size: 5Gi
+config:
+  env: stage
+  domain: rilldata.io
